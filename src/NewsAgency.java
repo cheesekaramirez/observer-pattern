@@ -12,7 +12,7 @@ public class NewsAgency {
     }
     
     public void printAgencyName() {
-        System.out.printf("%n You're subscribed to %s News Agency.",agencyName);
+        System.out.printf("%n This is %s News Agency.",agencyName);
     }
 
     public void subscribe(Subscriber subscriber){

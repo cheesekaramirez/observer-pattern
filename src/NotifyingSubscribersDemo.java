@@ -7,6 +7,7 @@ public class NotifyingSubscribersDemo {
         Subscriber n = new Subscriber("Nena");
         Subscriber a = new Subscriber("Anthony");
         
+        na.printAgencyName();
         na.subscribe(p);
         na.subscribe(c);
         na.subscribe(n);
